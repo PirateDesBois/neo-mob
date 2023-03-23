@@ -16,10 +16,9 @@
 
         <v-divider></v-divider>
         <v-list nav>
-          <v-list-item prepend-icon="mdi-home"><RouterLink class="nav-link text-light pt-4" to="/">Home</RouterLink>
+          <v-list-item prepend-icon="mdi-home"><RouterLink class="nav-link text-white pt-4 text-decoration-none" to="/">Home</RouterLink>
       </v-list-item>
-          <v-list-item prepend-icon="mdi-shopping" ><RouterLink class="nav-link text-light pt-4" to="/Clients">Clients</RouterLink></v-list-item>
-          <v-list-item prepend-icon="mdi-clock-start" title="Clock-in" value="clockin"></v-list-item>
+          <v-list-item prepend-icon="mdi-shopping" ><RouterLink class="nav-link text-white pt-4 text-decoration-none" to="/Clients">Clients</RouterLink></v-list-item>
         </v-list>
       </v-navigation-drawer>
       <v-app-bar class="bg-purple-darken-4">
