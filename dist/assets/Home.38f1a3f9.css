@@ -1,0 +1,1 @@
+.animation{animation-name:text-focus-in;font-size:80px;color:#fff;animation-duration:3s}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}to{-webkit-filter:blur(0px);filter:blur(0px);opacity:1}}
