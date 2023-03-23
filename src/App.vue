@@ -65,4 +65,26 @@ background: radial-gradient(circle, rgba(98,0,238,1) 3%, rgba(5,35,62,1) 100%);
 .deleteIcon:hover{
   color: rgb(196, 24, 2) !important;
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: rgb(154, 6, 223) #1f1f1f;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #1f1f1f;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(154, 6, 223);
+    border-radius: 10px;
+    border: 3px solid #1f1f1f;
+  }
 </style>

@@ -27,10 +27,10 @@
                                         <v-row>
                                                 <v-col>
                                                         <v-card class="px-3 py-2" theme="dark">
-                                                                <v-list-item-content>
+                                                                <v-list-item>
                                                                         <v-list-item-title>Name : {{ reservation.vehicle
                                                                         }}</v-list-item-title>
-                                                                </v-list-item-content>
+                                                                </v-list-item>
                                                                 <v-list-item-action class="justify-end">
                                                                         <v-icon class="deleteIcon"
                                                                                 @click="deleteVehicle(index)">mdi-delete
